@@ -5,7 +5,7 @@ using namespace std;
 
 int main (int argc, char* argv[])
 {
-  // // Default
+  // Default
   string name = "World";
   if (argv[1])
     name = argv[1];
