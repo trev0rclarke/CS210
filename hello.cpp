@@ -2,8 +2,9 @@
 
 using namespace std;
 
-int main ()
+int main (int argc, char* argv[])
 {
-  cout << "Hello World" << endl;
+  // int count = argv.size();
+  cout << "Hello, " << argv[10];
   return 0;
 }
