@@ -1,10 +1,14 @@
 #include <iostream>
-
+#include <cstring>
+#include <cstdlib>
 using namespace std;
 
 int main (int argc, char* argv[])
 {
-  // int count = argv.size();
-  cout << "Hello, " << argv[10];
+  // // Default
+  string name = "World";
+  if (argv[1])
+    name = argv[1];
+  cout << "Hello, " << name;
   return 0;
 }
